@@ -6,14 +6,41 @@
 
 }
 
-.bg{
-    background-size: cover;
-    height: 900px;
+#fullpage{
+    background-image: url('../Aula\ 1/bg.jpg');
+    background-size: 100%;
 }
 
 
 .bg h1{
-    color: aliceblue;
+    color: white;
+    position: absolute;
     font-size: 50px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
+}
+
+#moeda{
+    font-size: 40px;
+    border-radius: 50px;
+    padding-left: 30px;
+}
+
+.bg #enviar{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
+    font-size: 30px;
+    padding: 5px 10px;
+    border-radius: 30px
+}
+
+.bg #moeda{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
